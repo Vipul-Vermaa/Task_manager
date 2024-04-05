@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+
+    &__logo {
+        h5 {
+            color: rgb(147, 43, 147);
+            font-weight: bold;
+        }
+    }
+    .button {
+        background-color: rgb(147, 43, 147);
+        color: aliceblue;
+        margin-left: 10px;
+        padding: 8px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        min-width: 120px;
+    }
+}

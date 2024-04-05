@@ -1,0 +1,21 @@
+.task-list-container {
+    max-height: 300px;
+    overflow-y: auto; 
+}
+.list-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(147,43,147);
+    padding: 1rem;
+    color: white;
+    border: 1px solid black;    
+    li {
+        flex: 1;        
+    }
+    h5 {
+        font-size: 16px;
+    }
+}

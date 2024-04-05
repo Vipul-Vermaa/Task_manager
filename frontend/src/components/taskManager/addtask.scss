@@ -1,0 +1,23 @@
+.addtask {
+    width: 100%;
+    form {
+        width: 70%;
+        margin: 3rem;
+        display: flex;
+        >.my-button{
+            background-color: white;
+            color: black;
+            border-radius: 2px;
+            border: 1px solid black;
+        }
+    }
+    input {
+        padding: 5px;
+        width: 30rem;
+        border: none;
+        outline: none;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+    
+}
